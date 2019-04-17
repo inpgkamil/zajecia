@@ -1,0 +1,27 @@
+cin>>d;
+            cout<<"Wynik = "<<zestaw(wynik)<<endl;
+            cout<<"Czy zapisac wynik? [t/n]: ";
+            cin>>tn;
+            if (tn=='t')
+            {
+                fstream plik;
+                plik.open("Zestawy.txt",ios::out | ios::app);
+                plik<<"Zestaw: "<<napis<<":"<<endl;
+                plik<<"Dodano "<<b<<" pierwszoplanowych postaci."<<endl;
+                plik<<"Dodano "<<c<<" drugoplanowych postaci."<<endl;
+                plik<<"Dodano "<<d<<" specjalnych klockow."<<endl;
+                plik<<"Tyle bedzie kosztowal caly zestaw."<<zestaw(wynik)<<" PLN"<<endl;
+                plik.close();
+                cout<<"Zapis wykonany pomyœlnie!\n Wcisnij ENTER";
+            }
+            else
+                system ("clear");
+ 
+        }
+        break;
+        case 2:
+            cout<<"b";
+            break;
+        case 3:
+            cout<<"c";
+            break;
