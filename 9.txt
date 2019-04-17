@@ -6,10 +6,10 @@
                 cout<<"4.Wyjscie"<<endl;
 
                 cout<<endl;
-                wybor=getch();
+                wybor=getch();dfbfhnmn
             }
 
-            else if(correctPin) // Nie Admin, ale u¿ytkownik z poprawnym PINem
+            else if(correctPin) // Nie Admin, ale uÂ¿ytkownik z poprawnym PINem
             {
                 cout<<endl;
                 cout<<"MENU BANKOMATU" <<endl;
@@ -33,4 +33,4 @@
                                 break;
 
                             case '3':
-                                cout<<"LOG BLEDÓW:"<<endl;
+                                cout<<"LOG BLEDÃ“W:"<<endl;
