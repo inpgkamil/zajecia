@@ -1,0 +1,26 @@
+   break;
+
+                            case '4':
+                                cout<<"Do widzenia"<<endl;
+                                exit(0);
+                                break;
+
+                            default: cout<<"Nie ma takiej opcji w menu sprobuj jeszcze raz";
+
+                        }
+
+                            getchar();getchar();
+                            system("cls");  //czyszczenie okna po wybraniu opcji
+    }
+}
+
+        return 0;
+
+}
+
+Niestety jedna funkcja nie dzia³a poprawnie i jeszcze nie odkry³em jak z tym kodem zawalczyæ. Chcia³bym, aby je¿eli ktoœ wpisuje inny PIN (który jest w kodzie), inny ni¿ admina to, aby wyœwietla³o mu siê u¿ytkownikowi inne menu.
+
+Je¿eli ktoœ chce mi powiedzieæ jak usprawniæ ten kod etc to te¿ bêdê bardoz wdziêczny.
+W razie pytañ zapraszam, sory za poziom kodu i dziêkujê z góry.
+
+Pozdrawiam
