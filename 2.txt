@@ -1,0 +1,28 @@
+ cout<<"Witaj w kreatorze cen zestawow firmy LEGO!"<<endl<<endl;
+        cout<<"----------------->>MENU<<-----------------"<<endl;
+        cout<<"1. Stworz wlasny zestaw."<<endl;
+        cout<<"2. Wczytaj zapisany projekt."<<endl;
+        cout<<"3. Ponoc."<<endl;
+        cout<<"4. Wyjscie."<<endl;
+        cout<<"=========================================="<<endl;
+        cout<<"Wybierz opcjê: ";
+        cin>>a;
+ 
+        switch(a)
+        {
+        case 1:
+        {
+            string napis;
+            cout<<"Podaj nazwe zestawu: ";
+            cin.ignore();
+            getline (cin,napis);
+            cout<<"Ilu bohaterow pierwszoplanowych na byc w zestawie?: ";
+            cin>>b;
+            cout<<"Ilu bohaterow drugoplanowych ma byc w zestawie?: ";
+            cin>>c;
+            cout<<"Ile bedzie specjalnych klockow w zestawie?: ";
+            cin>>d;
+            cout<<"Wynik = "<<zestaw(wynik)<<endl;
+            cout<<"Czy zapisac wynik? [t/n]: ";
+            cin>>tn;
+            if (tn=='t')
