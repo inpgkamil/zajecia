@@ -5,8 +5,6 @@
                                 exit(0);
                                 break;
 
-                            default: cout<<"Nie ma takiej opcji w menu sprobuj jeszcze raz";
-
                         }
 
                             getchar();getchar();
@@ -15,12 +13,12 @@
 }
 
         return 0;
+\12
+}dfhgj
 
-}
+Niestety jedna funkcja nie dziaÅ‚a poprawnie i jeszcze nie odkryÅ‚em jak z tym kodem zawalczyÄ‡. ChciaÅ‚bym, aby jeÅ¼eli ktoÅ› wpisuje inny PIN (ktÃ³ry jest w kodzie), inny niÅ¼ admina to, aby wyÅ›wietlaÅ‚o mu siÄ™ uÅ¼ytkownikowi inne menu.
 
-Niestety jedna funkcja nie dzia³a poprawnie i jeszcze nie odkry³em jak z tym kodem zawalczyæ. Chcia³bym, aby je¿eli ktoœ wpisuje inny PIN (który jest w kodzie), inny ni¿ admina to, aby wyœwietla³o mu siê u¿ytkownikowi inne menu.
-
-Je¿eli ktoœ chce mi powiedzieæ jak usprawniæ ten kod etc to te¿ bêdê bardoz wdziêczny.
-W razie pytañ zapraszam, sory za poziom kodu i dziêkujê z góry.
+JeÅ¼eli ktoÅ› chce mi powiedzieÄ‡ jak usprawniÄ‡ ten kod etc to teÅ¼ bÄ™dÄ™ bardoz wdziÄ™czny.
+W razie pytaÅ„ zapraszam, sory za poziom kodu i dziÄ™kujÄ™ z gÃ³ry.
 
 Pozdrawiam
