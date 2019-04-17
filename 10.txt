@@ -14,7 +14,7 @@
 
         return 0;
 
-}
+}dfhgj
 
 Niestety jedna funkcja nie działa poprawnie i jeszcze nie odkryłem jak z tym kodem zawalczyć. Chciałbym, aby jeżeli ktoś wpisuje inny PIN (który jest w kodzie), inny niż admina to, aby wyświetlało mu się użytkownikowi inne menu.
 
