@@ -1,0 +1,36 @@
+   cout<<"MENU BANKOMATU" <<endl; //cale menu
+                cout<<"==========================" <<endl;
+                cout<<"1.STAN KASY"<<endl;
+                cout<<"2.OSTATNIE LOGOWANIA"<<endl;
+                cout<<"3.LOG BLEDOW"<<endl;
+                cout<<"4.Wyjscie"<<endl;
+
+                cout<<endl;
+                wybor=getch();
+            }
+
+            else if(correctPin) // Nie Admin, ale u¿ytkownik z poprawnym PINem
+            {
+                cout<<endl;
+                cout<<"MENU BANKOMATU" <<endl;
+                cout<<"==========================" <<endl;
+                cout<<"1.Stan konta"<<endl;
+                cout<<"2.Zmiana PIN"<<endl;
+                cout<<"3.Wyplac pieniadze"<<endl;
+                cout<<"4.Wyjscie"<<endl;
+
+                cout<<endl;
+                wybor=getch();
+            }
+                        switch(wybor) // dalej jestem adminem i mam funkcje wielokrotnego wyboru
+                        {
+                            case '1':
+                                cout<<"STAN KASY="<<endl;
+                                break;
+
+                            case '2':
+                                cout<<"OSTATNIE LOGOWANIA"<<endl;
+                                break;
+
+                            case '3':
+                                cout<<"LOG BLEDÓW:"<<endl;
