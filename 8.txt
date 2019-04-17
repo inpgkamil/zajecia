@@ -1,0 +1,47 @@
+  return "Marcin";
+    }
+    else if (pin == "1234")
+    {
+        return "ADMIN";
+    }
+    else
+    {
+        return "";
+    }
+}
+
+int main()
+
+{
+    cout << "Witaj w naszym banku"<<endl; //pierwszy napis
+    cout << "podaj PIN:"; //prosba o podanie danych
+    cin >> PIN; //wczytywanie danych
+
+{
+
+        bool isAdmin = false;
+        bool correctPin = false;
+
+        string user = GetUser(PIN);
+            if (user.length() > 0)
+            {
+                cout << "Poprawny PIN" << endl;
+                cout << "Witaj " << user << "! Jak dzis mozemy Ci pomoc?" << endl;
+                correctPin = true;
+
+                if(user == "ADMIN")
+                {
+                    isAdmin = true;
+                }
+            }
+                else
+                {
+                    cout << "Nieprawidlowy PIN";
+                }
+
+for(;;)
+    {
+
+            if(isAdmin)
+            {
+                cout<<endl;
