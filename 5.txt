@@ -7,12 +7,12 @@ cin>>d;
                 fstream plik;
                 plik.open("Zestawy.txt",ios::out | ios::app);
                 plik<<"Zestaw: "<<napis<<":"<<endl;
-                plik<<"Dodano "<<b<<" pierwszoplanowych postaci."<<endl;
+                plik<<"Dodano "<<b<<" pierwszoplaffefsdgrtnowych postaci."<<endl;
                 plik<<"Dodano "<<c<<" drugoplanowych postaci."<<endl;
                 plik<<"Dodano "<<d<<" specjalnych klockow."<<endl;
                 plik<<"Tyle bedzie kosztowal caly zestaw."<<zestaw(wynik)<<" PLN"<<endl;
                 plik.close();
-                cout<<"Zapis wykonany pomyœlnie!\n Wcisnij ENTER";
+                cout<<"Zapis wykonany pomyÅ“lnie!\n Wcisnij ENTER";
             }
             else
                 system ("clear");
